@@ -63,7 +63,7 @@ public class CalculadoraCaronaSolidaria {
 			caronaQui = input.nextInt();
 			caronaSex = input.nextInt();
 			
-			caronaMedia = (caronaSeg+caronaTer+caronaQua+caronaQui+caronaSex)/diasTrabalho;
+			caronaMedia = (caronaSeg+caronaTer+caronaQua+caronaQui+caronaSex+1)/diasTrabalho;
 			
 			precoTotalSem = (estacionamento+pedagio+combPrecoPDia) * 5;
 			precoTotalMes = precoTotalSem * 4;
@@ -83,7 +83,7 @@ public class CalculadoraCaronaSolidaria {
 			caronaSex = input.nextInt();
 			caronaSab = input.nextInt();
 			
-			caronaMedia = (caronaSeg+caronaTer+caronaQua+caronaQui+caronaSex+caronaSab)/diasTrabalho;
+			caronaMedia = (caronaSeg+caronaTer+caronaQua+caronaQui+caronaSex+caronaSab+1)/diasTrabalho;
 			
 			precoTotalSem = (estacionamento+pedagio+combPrecoPDia) * 6;
 			precoTotalMes = precoTotalSem * 4;
@@ -104,7 +104,7 @@ public class CalculadoraCaronaSolidaria {
 			caronaSab = input.nextInt();
 			caronaDom = input.nextInt();
 			
-			caronaMedia = (caronaSeg+caronaTer+caronaQua+caronaQui+caronaSex+caronaSab+caronaDom)/diasTrabalho;
+			caronaMedia = (caronaSeg+caronaTer+caronaQua+caronaQui+caronaSex+caronaSab+caronaDom+1)/diasTrabalho;
 			
 			precoTotalSem = (estacionamento+pedagio+combPrecoPDia) * 7;
 			precoTotalMes = precoTotalSem * 4;
